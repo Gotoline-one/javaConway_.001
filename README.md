@@ -18,8 +18,8 @@ Reference: <https://openjfx.io/openjfx-docs/#maven>
 <b>(Windows)</b>
 
 Ensure these Enviroment variable are setup:
-     PATH_TO_FX="path\to\javafx-sdk-23.0.2\lib"  
-     PATH_TO_FX_MODS="path\to\javafx-jmods-23.0.2"
+     PATH_TO_FX="path\to\javafx-sdk\lib"  
+     PATH_TO_FX_MODS="path\to\javafx-jmods"
 <br><br>
 
 to run using Maven: <br>
