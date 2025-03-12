@@ -8,6 +8,13 @@
             "type": "java",
             "name": "MyApp",
             "request": "launch",
+            "mainClass": "com.conway/com.conway.MyApp",
+            "projectName": "conway"
+        },
+        {
+            "type": "java",
+            "name": "MyApp",
+            "request": "launch",
             "mainClass": "com.conway.MyApp",
             "projectName": "conway"
         }

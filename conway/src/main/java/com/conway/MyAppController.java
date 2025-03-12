@@ -43,9 +43,11 @@ public class MyAppController {
     }
     
     public void handle(ActionEvent t) {
+        t.consume();
         
     } 
     public void handleQuit(ActionEvent t) {
-        System.exit(1);
+        t.consume();
+        System.exit(0);
     }
 }
