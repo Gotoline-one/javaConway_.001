@@ -2,9 +2,10 @@ System requires Maven to be installed, and would work best using vscode
 
 if you have git installed,
 
-git clone <URL from github><br>
-cd <new folder><br>
-code .<br>
+
+git clone -b java21-version --single-branch https://github.com/Gotoline-one/javaConway_.001.git  <br>
+cd javaConway_.001  <br>
+code . <br>
 
 this should open vscode up and it should read the pom.xml and other
 config files to set up your enviroment. 
