@@ -2,9 +2,9 @@ System requires Maven to be installed, and would work best using vscode
 
 if you have git installed,
 
-git clone <URL from github>
-cd <new folder>
-code .
+git clone <URL from github><br>
+cd <new folder><br>
+code .<br>
 
 this should open vscode up and it should read the pom.xml and other
 config files to set up your enviroment. 
