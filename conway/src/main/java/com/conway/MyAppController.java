@@ -16,19 +16,19 @@ public class MyAppController {
             Menu m = new Menu("Menu"); 
     
             // create menuitems 
-            MenuItem m1 = new MenuItem("menu item 1"); 
-            MenuItem m2 = new MenuItem("menu item 2"); 
+            // MenuItem m1 = new MenuItem("menu item 1"); 
+            // MenuItem m2 = new MenuItem("menu item 2"); 
             MenuItem m3 = new MenuItem("Quit"); 
 
             // adde event handlers
             m3.setOnAction(t -> { handleQuit(t); }  );
-            m2.setOnAction(t -> { handle(t); }      );
-            m1.setOnAction(t -> { handle(t); }      );
+            // m2.setOnAction(t -> { handle(t); }      );
+            // m1.setOnAction(t -> { handle(t); }      );
 
 
             // add menu items to menu 
-            m.getItems().add(m1); 
-            m.getItems().add(m2); 
+            // m.getItems().add(m1); 
+            // m.getItems().add(m2); 
             m.getItems().add(m3); 
     
             // create a menubar 
@@ -41,11 +41,15 @@ public class MyAppController {
             mainBox.getChildren().add(menuBox);
 
     }
-    
-    public void handle(ActionEvent t) {
-        
-    } 
+     
+
     public void handleQuit(ActionEvent t) {
+        this.cleanupBeforeExit();
         System.exit(1);
+    }
+
+    public void cleanupBeforeExit() {
+        
+
     }
 }
